@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.m2l.HelloController">
+      <Button layoutX="496.0" layoutY="372.0" mnemonicParsing="false" onAction="#logoutBouton" prefHeight="26.0" prefWidth="104.0" text="Quitter" AnchorPane.bottomAnchor="1.6000000000000014" AnchorPane.rightAnchor="0.0" />
+      <Button layoutX="135.0" layoutY="28.0" mnemonicParsing="false" onAction="#CompetitionBouton" prefHeight="70.0" prefWidth="329.0" text="Compétition" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="135.39999999999998">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button layoutX="135.0" layoutY="129.0" mnemonicParsing="false" onAction="#EquipeBouton" prefHeight="70.0" prefWidth="329.0" text="Equipe" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="135.39999999999998">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Button layoutX="135.0" layoutY="227.0" mnemonicParsing="false" onAction="#MembreBouton" prefHeight="70.0" prefWidth="329.0" text="Membre" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="135.39999999999998">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+</AnchorPane>
